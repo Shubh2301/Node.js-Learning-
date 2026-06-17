@@ -15,10 +15,8 @@ const getJoke=()=>{
             const joke=JSON.parse(data);
             console.log("Here is a random joke")
             console.log(chalk.red.bold(`${joke.setup}`))
-            console.log(chalk.blue.bgGreen.bold(`${joke.punchline}`))
-              
+            console.log(chalk.blue.bgGreen.bold(`${joke.punchline}`))        
         })
-    })
-    
+    }) 
 }
 getJoke()
